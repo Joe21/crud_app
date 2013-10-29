@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: crud_app_development
+  pool: 5
+  username: user
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: crud_app_test
+  pool: 5
+  username: user
+  password:
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: crud_app_production
+  pool: 5
+  username: user
+  password:
+  host: localhost

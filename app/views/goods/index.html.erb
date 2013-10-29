@@ -1,0 +1,7 @@
+<h1>Goods</h1>
+
+<ul>
+	<% @goods.each do |good| %>
+	<li>Good Name: <%= good.name %> | <a href="/goods/<%= good.id %>">Edit/Delete</a></li>
+	<% end %>
+</ul>
