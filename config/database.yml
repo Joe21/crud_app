@@ -19,8 +19,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: crud_app_production
+  database: d5mv8p5k9gltps
   pool: 5
-  username: user
-  password:
-  host: localhost
+  username: jpvnxybjxsgumf
+  password: PW7-oDVbkgpD9bigad6flh0-K_
+  host: ec2-23-23-243-111.compute-1.amazonaws.com
